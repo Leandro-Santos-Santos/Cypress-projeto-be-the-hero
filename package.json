@@ -19,6 +19,6 @@
   },
   "homepage": "https://github.com/Leandro-Santos-Santos/Cypress-projeto-be-the-hero#readme",
   "devDependencies": {
-    "cypress": "4.1"
+    "cypress": "^15.7.1"
   }
 }
