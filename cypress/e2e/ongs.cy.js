@@ -15,7 +15,21 @@ describe('', () => {
     });
 
     it('realizar login', () => {
-        
+        //cy.request({
+           //method: 'POST',
+           //url: 'http://localhost:3333/ongs',     
+          // body: {
+            //name: "Pets amores de nossas vidas",
+           // email: "petsdoacao@auaumiau.com",
+            //whatsapp: "51999999999",
+            //city: "Porto Alegre",
+            //uf: "RS"
+           //} 
+        //})
 
+        cy.visit('https://be-the-hero-kappa.vercel.app/');
+        cy.get('input[placeholder="Sua ID"]').type('b1c8f6d7');
+
+        cy.get('button[class="button"]').click();
     });
 });
